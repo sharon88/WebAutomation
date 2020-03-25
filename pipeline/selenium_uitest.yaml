@@ -1,0 +1,11 @@
+pr: none
+trigger:
+  - master
+
+jobs:
+  - job: 'MavenRunJob'
+    displayName: Delete pending orders nightly
+    steps:
+      - script: |
+          cd $(Build.Repository.LocalPath)
+          mvn clean test -Dtest.file=testng.xml

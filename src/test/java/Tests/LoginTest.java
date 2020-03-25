@@ -13,7 +13,7 @@ public class LoginTest extends Config {
     LoginPage login;
 
 
-    @Test
+//    @Test
     public void testSuccessLogin() {
         landingPage = new LaunchLandingPage(driver);
         landingPage.verifyLaunchLandingPage();

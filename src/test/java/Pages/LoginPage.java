@@ -26,7 +26,7 @@ public class LoginPage {
     WebElement PASSWORD_EDIT_TEXT;
     @FindBy(id = "wp-submit")
     WebElement SUBMIT_BUTTON;
-    @FindBy(id = "login_errore")
+    @FindBy(id = "login_error")
     WebElement LOGIN_ERROR;
     @FindBy(id = "wp-admin-bar-my-account")
     WebElement LOGIN_SUCCESS;
